@@ -204,6 +204,7 @@ footer {
 
 .floatLeft {
     float: left;
+    margin-right: 36px;
 }
 
 .floatRight {
@@ -305,7 +306,7 @@ footer {
 }
 
 @media (max-width: 1108px) {
-    #headerContent, #footer, #content, #textAboutMe {
+    #headerContent, #footer, footer, #content, #textAboutMe, #portfolios, .floatLeft, .floatRight {
         width: auto;
     }
 
@@ -329,6 +330,18 @@ footer {
     .contentTitle {
         width: auto;
         margin: 0 36px 0 36px;
+    }
+
+    .contactBox, #portfolios {
+        width: calc(100% - 72px);
+    }
+
+    .floatRight {
+        float: left;
+    }
+
+    .project {
+        width: auto;
     }
 }
 
@@ -408,6 +421,16 @@ footer {
     .icon {
         position: relative;
         left: -4px;
+        float: left;
+    }
+
+    .floatRight {
+        float: right;
+    }
+}
+
+@media (max-width: 710px) {
+    .floatRight {
         float: left;
     }
 }
