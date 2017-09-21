@@ -5,4 +5,9 @@ This is almost identical to the basic portfolio, but it is made responsive with 
 Here is what the portfolio page looks like on an iPhone.
 
 ![Alt text](/responsive_portfolio_pic_1.PNG?raw=true "Optional Title")
+
+
+
+
+
 ![Alt text](/responsive_portfolio_pic_2.PNG?raw=true "Optional Title")
